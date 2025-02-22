@@ -55,7 +55,7 @@ export default function Navbar() {
       </div>
       <div className="lg:hidden flex items-center">
         <button onClick={toggleMenu}>
-          {menuOpen ? <X className="fixed top-8 right-8 w-8 h-8 z-10" /> : <Menu className="fixed top-8 right-8 w-8 h-8 z-10" />}
+          {menuOpen ? <X className="fixed top-8 right-8 w-8 h-8 z-50" /> : <Menu className="fixed top-8 right-8 w-8 h-8 z-10" />}
         </button>
       </div>
       {menuOpen && (

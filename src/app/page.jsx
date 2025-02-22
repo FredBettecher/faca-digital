@@ -1,3 +1,4 @@
+import FloatingButton from "@/components/floating-button";
 import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
 import AboutUs from "@/containers/about";
@@ -10,6 +11,7 @@ export default function App() {
   return (
     <>
       <Navbar />
+      <FloatingButton />
       <Home />
       <Services />
       <Works />
