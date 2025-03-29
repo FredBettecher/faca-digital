@@ -28,14 +28,14 @@ export default function AboutUs() {
         "A ilustração não é apenas desenhar; é dar vida a conceitos e emoções por meio de traços e cores.",
       name: "Byanca Ribeiro",
       designation: "Designer Ilustradora",
-      src: "/about-images/person04.jpg",
+      src: "/about-images/person04.png",
     },
     {
       quote:
         "Uma marca forte não se constrói apenas com um logotipo, mas com identidade e significado que ressoam com o público.",
       name: "Fernando Zani",
       designation: "Designer de Marcas",
-      src: "/about-images/person05.jpg",
+      src: "/about-images/person05.png",
     },
   ];
 
