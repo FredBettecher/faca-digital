@@ -34,7 +34,7 @@ export default function FloatingButton() {
   return (
     <button
       onClick={scrollToTop}
-      className="uppercase z-50 fixed bottom-10 right-10 bg-background border border-that-green text-that-green rounded-lg p-2"
+      className={`${setShowButton ? 'opacity-100 animate-fade-up' : ''} uppercase z-50 fixed bottom-10 right-10 bg-background border border-that-green text-that-green rounded-lg p-2`}
     >
       voltar ao início
     </button>
