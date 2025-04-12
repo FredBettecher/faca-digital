@@ -21,7 +21,7 @@ export default function AboutUs() {
         "Construir sites é como criar pontes: conectamos ideias ao mundo digital com funcionalidade e inovação.",
       name: "Frederico Bettecher",
       designation: "Desenvolvedor Web",
-      src: "/about-images/person03.png",
+      src: "/about-images/person03.jpg",
     },
     {
       quote:
